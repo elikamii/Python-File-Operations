@@ -5,7 +5,6 @@ def create_and_write_file(filename, content):
     try:
         with open(filename, 'w') as file:
             file.write(content)
-        print(f"File '{filename}' created and content written successfully.")
     except IOError as e:
         print(f"An error occurred: {e}")
 
