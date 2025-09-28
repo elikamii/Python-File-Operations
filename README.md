@@ -10,9 +10,7 @@ def create_and_write_file(filename, content):
 
 def read_file(filename):
     """Reads and prints the content of a file."""
-    try:
-        with open(filename, 'r') as file:leNotFoundError:
-        print(f"Error: The file '{filename}' was not found.")
+    try:(f"Error: The file '{filename}' was not found.")
     except IOError as e:
         print(f"An error occurred: {e}")
 
